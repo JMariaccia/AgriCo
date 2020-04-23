@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AgriCo.Core.Modele
+namespace AgriCo.Core.Modeles
 {
      public abstract class Personne
     {
@@ -12,7 +12,7 @@ namespace AgriCo.Core.Modele
         public string Prenom { get; set; }
         public string Telephone { get; set; }
 
-        public bool Valide = false;
+        public bool Valide { get; set; } = false;
 
 
         public Personne()

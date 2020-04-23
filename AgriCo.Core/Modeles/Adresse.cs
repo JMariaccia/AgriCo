@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AgriCo.Core.Modele
+namespace AgriCo.Core.Modeles
 {
-    class Adresse
+    public class Adresse
     {
         public string Libelle { get; set; }
         public string Lattitude { get; set; }
