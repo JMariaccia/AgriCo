@@ -1,10 +1,8 @@
 ﻿namespace AgriCo.Core.Modele.Produits
 {
-    public enum TypeProduit
+    public enum QualiteProduit
     {
-        viande,
-        legume,
-        fromage,
-        autre
+        bio,
+        nonBio
     }
 }

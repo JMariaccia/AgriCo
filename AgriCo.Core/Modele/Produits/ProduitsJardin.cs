@@ -2,6 +2,6 @@
 {
     public class ProduitsJardin : Produit
     {
-        public QualiteProduit QualiteProduit { get; set; }
+        public QualiteProduit QualiteProduit;
 	}
 }

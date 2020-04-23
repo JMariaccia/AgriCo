@@ -1,8 +1,9 @@
 ﻿namespace AgriCo.Core.Modele.Produits
 {
-    public enum QualiteProduit
+    public enum TypeAbattage
     {
-        bio,
-        nonBio
+        classique,
+        hallal,
+        kasher
     }
 }
