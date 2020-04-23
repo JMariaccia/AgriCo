@@ -1,11 +1,44 @@
-﻿using System;
+﻿using AgriCo.Core.Modele.Produits;
 using System.Collections.Generic;
-using System.Text;
 
 namespace AgriCo.Core.Modele.Consommateur
 {
     public class Panier
     {
-        //Partie de Gégé 
+        #region Fields
+
+        bool etatPaiement = false;
+        bool etatValidation = false;
+        //List<Producteur,Produit> listeProduitAchete = new List<Producteur,Produit>();
+        List<Produit> listeProduitAchete = new List<Produit>();
+
+        #endregion
+
+        #region Properties
+        bool EtatPaiement { get; set; }
+
+        bool EtatValidation { get; set; }
+
+        public List<Panier> ListePanier { get; set; }
+
+        #endregion
+
+        #region Methods
+        public Panier()
+        {
+
+        }
+
+        public float CalculTotalPanier(List<Produit> mesProduits)
+        {
+            return mesProduits.Count;
+        }
+
+        public void AjouterProduit(Produit monProduit)
+        {
+            listeProduitAchete.Add(monProduit);
+        }
+
+        #endregion
     }
 }
