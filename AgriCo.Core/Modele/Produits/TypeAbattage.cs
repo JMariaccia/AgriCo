@@ -1,6 +1,8 @@
 ﻿namespace AgriCo.Core.Modele.Produits
 {
-    enum TypeAbattage
+    public enum QualiteProduit
     {
+        bio,
+        nonBio
     }
 }

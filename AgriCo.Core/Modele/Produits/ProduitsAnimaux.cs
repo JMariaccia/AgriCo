@@ -2,5 +2,6 @@
 {
     public class ProduitsAnimaux : Produit
     {
+        public TypeAbattage TypeAbattage { get; set; }
     }
 }
