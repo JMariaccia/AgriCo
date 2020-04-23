@@ -1,4 +1,4 @@
-﻿namespace AgriCo.Core.Modele.DataAccess
+﻿namespace AgriCo.Core.Modeles.DataAccess
 {
     interface IProfilDataAccess
     {
