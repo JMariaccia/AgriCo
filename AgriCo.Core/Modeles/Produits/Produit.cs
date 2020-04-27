@@ -15,7 +15,7 @@
 
 		public TypeProduit Type { get; set; }
 
-		public Producteur.Producteur ProducteurProduit { get; set; }
+		public Producteurs.Producteur ProducteurProduit { get; set; }
 
 	}
 
