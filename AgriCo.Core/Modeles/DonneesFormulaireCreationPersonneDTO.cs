@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AgriCo.Core.Modele
+﻿namespace AgriCo.Core.Modeles
 {
     public class DonneesFormulaireCreationPersonneDTO
     {
@@ -14,6 +10,6 @@ namespace AgriCo.Core.Modele
 
         public string Adresse { get; set; }
 
-        
+
     }
 }

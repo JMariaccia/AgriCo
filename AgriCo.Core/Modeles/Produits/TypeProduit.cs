@@ -1,4 +1,4 @@
-﻿namespace AgriCo.Core.Modele.Produits
+﻿namespace AgriCo.Core.Modeles.Produits
 {
     public enum TypeProduit
     {

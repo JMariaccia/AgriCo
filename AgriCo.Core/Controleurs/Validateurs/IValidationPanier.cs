@@ -1,4 +1,4 @@
-﻿using AgriCo.Core.Modele.Consommateur;
+﻿using AgriCo.Core.Modeles.Consommateurs;
 
 namespace AgriCo.Core.Controleur.Validateur
 {

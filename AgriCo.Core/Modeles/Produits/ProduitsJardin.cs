@@ -1,7 +1,7 @@
-﻿namespace AgriCo.Core.Modele.Produits
+﻿namespace AgriCo.Core.Modeles.Produits
 {
     public class ProduitsJardin : Produit
     {
-        public QualiteProduit QualiteProduit;
-	}
+        public QualiteProduit Qualite { get; set; }
+    }
 }

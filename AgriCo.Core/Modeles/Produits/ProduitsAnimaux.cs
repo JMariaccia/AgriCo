@@ -1,7 +1,7 @@
-﻿namespace AgriCo.Core.Modele.Produits
+﻿namespace AgriCo.Core.Modeles.Produits
 {
     public class ProduitsAnimaux : Produit
     {
-        public TypeAbattage TypeAbattage;
-    }
+		public TypeAbattage TypeAbattageViande { get; set; }
+	  }
 }
