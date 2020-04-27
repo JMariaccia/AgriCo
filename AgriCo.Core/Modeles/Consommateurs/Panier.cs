@@ -1,7 +1,8 @@
-﻿using AgriCo.Core.Modele.Produits;
+﻿using AgriCo.Core.Modeles.Producteurs;
+using AgriCo.Core.Modeles.Produits;
 using System.Collections.Generic;
 
-namespace AgriCo.Core.Modele.Consommateur
+namespace AgriCo.Core.Modeles.Consommateurs
 {
     public class Panier
     {
@@ -9,17 +10,19 @@ namespace AgriCo.Core.Modele.Consommateur
 
         bool etatPaiement = false;
         bool etatValidation = false;
-        //List<Producteur,Produit> listeProduitAchete = new List<Producteur,Produit>();
-        List<Produit> listeProduitAchete = new List<Produit>();
+
+        Dictionary<Producteur, ISet<Produit>> listeProduitAchete = new Dictionary<Producteur, ISet<Produit>>();
 
         #endregion
 
         #region Properties
-        bool EtatPaiement { get; set; }
+        public bool EtatPaiement { get; set; } = false;
 
-        bool EtatValidation { get; set; }
+        public bool EtatValidation { get; set; } = false;
 
-        public List<Panier> ListePanier { get; set; }
+        public List<Panier> ListePanier { get; set; } = new List<Panier>();
+
+        public Consommateur Utilisateur { get; set; }
 
         #endregion
 
@@ -29,14 +32,20 @@ namespace AgriCo.Core.Modele.Consommateur
 
         }
 
-        public float CalculTotalPanier(List<Produit> mesProduits)
+        public Panier(Dictionary<Producteur, ISet<Produit>> listeProduitAchete, Consommateur utilisateur)
         {
-            return mesProduits.Count;
+            this.listeProduitAchete = listeProduitAchete;
+            Utilisateur = utilisateur;
+        }
+
+        public decimal CalculTotalPanier(Dictionary<Producteur, Produit> mesProduits)
+        {
+            return 0;//mesProduits.Select(p => p.Value.Prix);
         }
 
         public void AjouterProduit(Produit monProduit)
         {
-            listeProduitAchete.Add(monProduit);
+            // listeProduitAchete.Add(monProduit.Producteur, monProduit);
         }
 
         #endregion

@@ -1,6 +1,7 @@
 ﻿namespace AgriCo.Core.Modeles
 {
-    class Adresse
+    public abstract class Personne
     {
+
     }
 }

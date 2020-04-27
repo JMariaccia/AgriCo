@@ -1,6 +1,6 @@
 ﻿namespace AgriCo.Core.Controleurs
 {
-    class ControleurProduit
+    class ControleurConsommateur
     {
     }
 }
