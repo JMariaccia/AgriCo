@@ -1,14 +1,14 @@
-﻿namespace AgriCo.Core.Modele.Produits
+﻿namespace AgriCo.Core.Modeles.Produits
 {
     public class Produit
     {
-		private int myVar;
+        private int myVar;
 
-		public int MyProperty
-		{
-			get { return myVar; }
-			set { myVar = value; }
-		}
+        public int MyProperty
+        {
+            get { return myVar; }
+            set { myVar = value; }
+        }
 
-	}
+    }
 }
