@@ -1,6 +1,6 @@
 ﻿namespace AgriCo.Core.Controleur.Validateur
 {
-    interface IValidationCompteBancaire
+    public interface IValidationCompteBancaire
     {
         /// <summary>
         /// 

@@ -1,7 +1,7 @@
 
 ﻿namespace AgriCo.Core.Controleurs.Transformateurs
 {
-    interface IConvertirProduit
+    public interface IConvertirProduit
     {
 
     }
