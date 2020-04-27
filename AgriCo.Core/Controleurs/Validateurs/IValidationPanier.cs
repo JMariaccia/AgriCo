@@ -9,9 +9,8 @@ namespace AgriCo.Core.Controleurs.Validateurs
         /// </summary>
         /// <param name="c">Le panier devant être validé</param>
         void ValidationPanier(Panier c);
-        /*{
-            //ListePanier.FirstOrDefault.Where(p => p == c).Select(p => p.EtatValidation = true);
-        }*/
+        //ListePanier.FirstOrDefault.Where(p => p == c).Select(p => p.EtatValidation = true);
+
 
     }
 }

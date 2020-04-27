@@ -1,10 +1,12 @@
-﻿namespace AgriCo.Core.Controleurs.Transformateurs
+﻿using AgriCo.Core.Modeles.Consommateurs;
+
+namespace AgriCo.Core.Controleurs.Transformateurs
 {
     /// <summary>
-    /// 
+    /// Transforme l'objet panier en paramettre en un object commande
     /// </summary>
     public interface ITansformationPanierEnCommande
     {
-        //Commande Transform(Panier p);
+        void Transform(Panier p);
     }
 }

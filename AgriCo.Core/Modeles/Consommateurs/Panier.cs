@@ -16,13 +16,13 @@ namespace AgriCo.Core.Modeles.Consommateurs
         #endregion
 
         #region Properties
-        bool EtatPaiement { get; set; } = false;
+        public bool EtatPaiement { get; set; } = false;
 
-        bool EtatValidation { get; set; } = false;
+        public bool EtatValidation { get; set; } = false;
 
-        public List<Panier> ListePanier { get; set; }
+        public List<Panier> ListePanier { get; set; } = new List<Panier>();
 
-        Consommateur Utilisateur { get; set; }
+        public Consommateur Utilisateur { get; set; }
 
         #endregion
 
@@ -30,6 +30,12 @@ namespace AgriCo.Core.Modeles.Consommateurs
         public Panier()
         {
 
+        }
+
+        public Panier(Dictionary<Producteur, ISet<Produit>> listeProduitAchete, Consommateur utilisateur)
+        {
+            this.listeProduitAchete = listeProduitAchete;
+            Utilisateur = utilisateur;
         }
 
         public decimal CalculTotalPanier(Dictionary<Producteur, Produit> mesProduits)
