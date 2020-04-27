@@ -3,7 +3,7 @@
     /// <summary>
     /// 
     /// </summary>
-    interface ITansformationPanierEnCommande
+    public interface ITransformationPanierEnCommande
     {
     }
 }
