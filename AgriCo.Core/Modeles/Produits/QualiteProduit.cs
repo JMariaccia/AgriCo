@@ -1,6 +1,6 @@
-﻿namespace AgriCo.Core.Modele.Produits
+﻿namespace AgriCo.Core.Modeles.Produits
 {
-    enum QualiteProduit
+    public enum QualiteProduit
     {
     }
 }

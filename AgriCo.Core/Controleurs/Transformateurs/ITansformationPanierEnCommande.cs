@@ -1,4 +1,4 @@
-﻿namespace AgriCo.Core.Controleur.Transformateur
+﻿namespace AgriCo.Core.Controleurs.Transformateurs
 {
     /// <summary>
     /// 

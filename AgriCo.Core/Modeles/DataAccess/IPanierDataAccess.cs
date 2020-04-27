@@ -1,6 +1,6 @@
-﻿using AgriCo.Core.Modele.Consommateur;
+﻿using AgriCo.Core.Modeles.Consommateurs;
 
-namespace AgriCo.Core.Modele.DataAccess
+namespace AgriCo.Core.Modeles.DataAccess
 {
     interface IPanierDataAccess
     {
