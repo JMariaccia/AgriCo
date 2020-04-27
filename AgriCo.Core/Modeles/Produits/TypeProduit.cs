@@ -2,5 +2,9 @@
 {
     public enum TypeProduit
     {
+        viande,
+        legume,
+        fromage,
+        autre
     }
 }
