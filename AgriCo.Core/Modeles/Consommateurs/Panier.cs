@@ -1,4 +1,4 @@
-﻿using AgriCo.Core.Modele.Produits;
+﻿using AgriCo.Core.Modeles.Produits;
 using System.Collections.Generic;
 
 namespace AgriCo.Core.Modeles.Consommateurs

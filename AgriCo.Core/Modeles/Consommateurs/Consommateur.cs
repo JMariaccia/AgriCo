@@ -1,10 +1,13 @@
+
 ﻿using AgriCo.Core.Modeles.Producteurs;
 using System.Collections.Generic;
+
 
 namespace AgriCo.Core.Modeles.Consommateurs
 {
     public class Consommateur : Personne
     {
+
         public Adresse AdresseConsommateur { get; set; }
         public Adresse AdresseLivraison { get; set; }
         List<Producteur> listeDesProducteursAbonnes = new List<Producteur>();
@@ -24,5 +27,8 @@ namespace AgriCo.Core.Modeles.Consommateurs
             AdresseConsommateur = adresse;
             AdresseLivraison = adresseLivraison;
         }
+
     }
 }
+
+
