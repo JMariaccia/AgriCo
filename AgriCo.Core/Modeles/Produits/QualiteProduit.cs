@@ -2,5 +2,7 @@
 {
     public enum QualiteProduit
     {
+        bio,
+        nonBio
     }
 }
