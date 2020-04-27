@@ -31,16 +31,4 @@ namespace AgriCo.Core.Modeles.Consommateurs
     }
 }
 
-5 conflicting files
-ControleurConsommateur.cs
-...Controleurs/ControleurConsommateur.cs
-IConvertirProduit.cs
-.../Transformateurs/IConvertirProduit.cs
-Consommateur.cs
-...Modeles/Consommateurs/Consommateur.cs
-IProfilDataAccess.cs
-...deles/DataAccess/IProfilDataAccess.cs
-Produit.cs
-AgriCo.Core/Modeles/Produits/Produit.cs
-AgriCo.Core/Modeles/Consommateurs/Consommateur.cs
-2 conflicts
+
