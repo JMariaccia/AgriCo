@@ -1,13 +1,11 @@
-﻿using AgriCo.Core.Controleurs.Validateurs;
-using AgriCo.Core.Modeles;
-using AgriCo.Core.Modeles.Consommateurs;
-using AgriCo.Core.Modeles.DataAccess;
+﻿using AgriCo.Core.Modele;
+using AgriCo.Core.Modele.Consommateur;
+using AgriCo.Core.Modele.DataAccess;
 using System;
-using System.Linq;
 
-namespace AgriCo.Core.Controleurs
+namespace AgriCo.Core.Controleur
 {
-    class ControleurPanier : IPanierDataAccess, IValidationPanier
+    class ControleurPanier : IPanierDataAccess
     {
         #region Fields
 
@@ -21,7 +19,7 @@ namespace AgriCo.Core.Controleurs
 
         public void ReglementPanier(Personne p)
         {
-            // ListePanier.Where(p => p.Utilisateur == p && p.MontantAPayer == 0).Select(p => p.EtatPaiement = true);
+            //ListePanier.Where(p => p.Utilisateur == p && p.MontantAPayer == 0).Select(p => p.EtatPaiement = true);
         }
 
         public void SuccesPaiement(int numeroCommande)
@@ -43,11 +41,6 @@ namespace AgriCo.Core.Controleurs
         public void SauvegarderPanier(Panier c)
         {
             c.ListePanier.Add(c);
-        }
-
-        public void ValidationPanier(Panier c)
-        {
-            c.ListePanier.Where(p => p == c).Select(p => p.EtatValidation = true);
         }
 
         #endregion

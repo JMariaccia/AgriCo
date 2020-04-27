@@ -1,4 +1,4 @@
-﻿namespace AgriCo.Core.Modeles.Produits
+﻿namespace AgriCo.Core.Modele.Produits
 {
     public class ProduitsAnimaux : Produit
     {
