@@ -1,6 +1,13 @@
-﻿namespace AgriCo.Core.Modele.Produits
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace AgriCo.Core.Modele.Produits
 {
-    enum TypeAbattage
+    public enum TypeAbattage
     {
+        halal,
+        kasher,
+        classique
     }
 }

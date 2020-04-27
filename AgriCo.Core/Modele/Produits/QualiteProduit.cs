@@ -1,6 +1,12 @@
-﻿namespace AgriCo.Core.Modele.Produits
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace AgriCo.Core.Modele.Produits
 {
-    enum QualiteProduit
+    public enum QualiteProduit
     {
+        bio,
+        non_bio
     }
 }
