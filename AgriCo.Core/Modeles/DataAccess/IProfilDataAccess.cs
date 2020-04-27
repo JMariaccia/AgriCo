@@ -2,5 +2,13 @@
 {
     interface IProfilDataAccess
     {
+
+
+        bool RecuperationProfilAttribue(string email);
+
+
+        bool SauvegarderProfil(Personne p);
+      
+
     }
 }

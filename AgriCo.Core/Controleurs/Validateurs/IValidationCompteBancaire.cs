@@ -1,4 +1,4 @@
-﻿namespace AgriCo.Core.Controleurs.Validateurs
+﻿namespace AgriCo.Core.Controleur.Validateur
 {
     interface IValidationCompteBancaire
     {

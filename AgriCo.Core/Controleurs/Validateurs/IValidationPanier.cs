@@ -1,16 +1,17 @@
-﻿using AgriCo.Core.Modeles.Consommateurs;
+﻿using AgriCo.Core.Modele.Consommateur;
 
-namespace AgriCo.Core.Controleurs.Validateurs
+namespace AgriCo.Core.Controleur.Validateur
 {
     interface IValidationPanier
     {
         /// <summary>
-        /// Permet de valider le contenu du panier passé en paramètre
+        /// 
         /// </summary>
-        /// <param name="c">Le panier devant être validé</param>
+        /// <param name="c"></param>
         void ValidationPanier(Panier c);
-        //ListePanier.FirstOrDefault.Where(p => p == c).Select(p => p.EtatValidation = true);
-
+        /*{
+            //ListePanier.FirstOrDefault.Where(p => p == c).Select(p => p.EtatValidation = true);
+        }*/
 
     }
 }

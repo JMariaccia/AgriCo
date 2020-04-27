@@ -1,4 +1,5 @@
-﻿namespace AgriCo.Core.Modele.Produits
+
+﻿namespace AgriCo.Core.Modeles.Produits
 {
     public class Produit
     {
@@ -17,4 +18,5 @@
 		public Producteur.Producteur ProducteurProduit { get; set; }
 
 	}
+
 }

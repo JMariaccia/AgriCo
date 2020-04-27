@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace AgriCo.Core.Controleur
+﻿using AgriCo.Core.Modeles;
+
+namespace AgriCo.Core.Controleurs
+
 {
     class ControleurConsommateur
     {
@@ -12,9 +12,10 @@ namespace AgriCo.Core.Controleur
             return false;
         }
 
-        public bool ValiderProfil(p.Personne)
+        public bool ValiderProfil(Personne p)
         {
             return false;
         }
-0    }
+    }
+
 }

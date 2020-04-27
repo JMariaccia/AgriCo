@@ -1,12 +1,8 @@
-﻿using AgriCo.Core.Modele.Produits;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace AgriCo.Core.Controleur.Transformateur
+﻿namespace AgriCo.Core.Controleurs.Transformateurs
 {
     interface IConvertirProduit
     {
-      
+
     }
 }
