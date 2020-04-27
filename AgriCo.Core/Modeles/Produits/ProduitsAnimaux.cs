@@ -3,6 +3,5 @@
     public class ProduitsAnimaux : Produit
     {
 		public TypeAbattage TypeAbattageViande { get; set; }
-
-	}
+	  }
 }

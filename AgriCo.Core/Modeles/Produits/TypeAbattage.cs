@@ -2,5 +2,8 @@
 {
     public enum TypeAbattage
     {
+        classique,
+        hallal,
+        kasher
     }
 }
