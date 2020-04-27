@@ -1,7 +1,7 @@
 ﻿using AgriCo.Core.Modele.Produits;
 using System.Collections.Generic;
 
-namespace AgriCo.Core.Modele.Consommateur
+namespace AgriCo.Core.Modeles.Consommateurs
 {
     public class Panier
     {

@@ -1,9 +1,9 @@
-﻿using AgriCo.Core.Modele;
-using AgriCo.Core.Modele.Consommateur;
-using AgriCo.Core.Modele.DataAccess;
+﻿using AgriCo.Core.Modeles;
+using AgriCo.Core.Modeles.Consommateurs;
+using AgriCo.Core.Modeles.DataAccess;
 using System;
 
-namespace AgriCo.Core.Controleur
+namespace AgriCo.Core.Controleurs
 {
     class ControleurPanier : IPanierDataAccess
     {

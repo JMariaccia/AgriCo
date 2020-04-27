@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AgriCo.Core.Modele.DataAccess
+﻿namespace AgriCo.Core.Modeles.DataAccess
 {
     interface IProduitDataAccess
     {
