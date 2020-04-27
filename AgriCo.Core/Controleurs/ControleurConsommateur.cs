@@ -1,6 +1,8 @@
+
 ﻿using AgriCo.Core.Modeles;
 
 namespace AgriCo.Core.Controleurs
+
 {
     class ControleurConsommateur
     {
@@ -15,4 +17,5 @@ namespace AgriCo.Core.Controleurs
             return false;
         }
     }
+
 }
