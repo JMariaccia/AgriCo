@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AgriCo.Core.Modele
+namespace AgriCo.Core.DTO
 {
-     public abstract class Personne
+    class AjoutNewProduitDTO
     {
-     
     }
 }
