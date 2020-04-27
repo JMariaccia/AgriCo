@@ -2,7 +2,7 @@
 
 namespace AgriCo.Core.Controleur.Validateur
 {
-    interface IValidationPanier
+    public interface IValidationPanier
     {
         /// <summary>
         /// 
